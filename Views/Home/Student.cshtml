@@ -1,0 +1,152 @@
+﻿@model List<u20475960_HW05.ViewModels.BookViewModel>
+
+@using u20475960_HW05.ViewModels;
+@using System;
+@using System.Collections.Generic;
+@using System.Linq;
+@using System.Web;
+@using System.Web.Mvc;
+@using System.Data.SqlClient;
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<style type="text/css">
+    .crudContainer {
+        position: absolute;
+        width: 75%;
+    }
+
+    .roundAddButton {
+        position: absolute;
+        top: 20px;
+        right: 0;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 60%;
+    }
+
+    .plainAddButton {
+        position: absolute;
+        top: 16px;
+        right: 0;
+        font-size: 32px;
+    }
+</style>
+@{
+    var db = "Data Source=DESKTOP-NUAHJKH\\SQLEXPRESS;Initial Catalog=Person;Integrated Security=True";
+    SqlConnection myConnection = new SqlConnection(db);
+    myConnection.Open();
+    string url = HttpContext.Current.Request.Url.AbsoluteUri;
+    char i = url[url.Length - 1];
+    var m = i - '0';
+    SqlCommand myCommand = new SqlCommand("Select books.bookId,borrows.borrowId,books.name as bname,borrows.takenDate as btdate,borrows.broughtDate as bbdate,students.name as stuname,students.surname as stusurname from books INNER JOIN borrows ON books.bookId = borrows.bookId INNER JOIN students ON borrows.studentId = students.studentId Where books.bookId=" +m, myConnection);
+
+    SqlDataReader myReader = myCommand.ExecuteReader();
+    var data2 = "";
+    while (myReader.Read())
+    {
+        BookViewModel book = new BookViewModel();
+        book.status = myReader["bname"].ToString();
+
+        data2 = book.status;
+
+
+
+    }
+    var data3 = data2;
+    myConnection.Close();
+    myConnection.Open();
+    myCommand = new SqlCommand("SELECT COUNT(borrows.bookId) AS numOfBurrow FROM borrows Where borrows.bookId=" + m, myConnection);
+    SqlDataReader myReader2 = myCommand.ExecuteReader();
+    var data4 = 0;
+    while (myReader2.Read())
+    {
+        BookViewModel book = new BookViewModel();
+        book.Points = (int)myReader2["numOfBurrow"];
+
+        data4 = book.Points;
+
+
+
+    }
+
+
+
+}
+
+
+
+@if (ViewBag.Status != 0)
+{
+<div class="row crudContainer">
+
+
+    <h1> Students</h1>
+    <label for="types">Select a Student Name</label>
+    <select name="types" id="types">
+        @foreach (BookViewModel book in Model)
+        {
+            <option value="type">@book.status</option>
+
+        }
+    </select>
+    <label for="types">Select a Class</label>
+    <select name="types" id="types">
+        @foreach (BookViewModel book in Model)
+        {
+            <option value="type">@book.author.Surname</option>
+
+        }
+    </select>
+    <button type="button" class="btn btn-success">Search</button>
+    <button type="button" class="btn btn-danger">Clear</button>
+
+
+
+
+    <a href="@Url.Action("Update", "Home")" class="btn btn-primary" title="Add Person">View Student<span class="btn btn-primary" aria-hidden="true"></span></a>
+
+
+    <table class="table">
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Class</th>
+            <th>Point</th>
+            <th>Borrow Book</th>
+
+
+
+        </tr>
+        @foreach (BookViewModel book in Model)
+        {
+    <tr>
+        <td>@book.ID</td>
+        <td>@book.status</td>
+        <td>@book.Name</td>
+        <td>@book.author.Surname</td>
+        <td>@book.Points</td>
+
+
+        <td>
+            <a href="@Url.Action("BorrowBook", "Home",new { id =  @m })" class="btn btn-primary" title="Add Person">Borrow Book<span class="btn btn-primary" aria-hidden="true"></span></a>
+
+        </td>
+
+
+
+    </tr>
+        }
+    </table>
+</div>
+}
+

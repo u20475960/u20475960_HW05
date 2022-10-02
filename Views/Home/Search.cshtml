@@ -1,0 +1,100 @@
+﻿@model List<u20475960_HW05.ViewModels.BookViewModel>
+@using u20475960_HW05.ViewModels;
+@{
+    ViewBag.Title = "Home Page";
+}
+<style type="text/css">
+    .crudContainer {
+        position: absolute;
+        width: 75%;
+    }
+
+    .roundAddButton {
+        position: absolute;
+        top: 20px;
+        right: 0;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 60%;
+    }
+
+    .plainAddButton {
+        position: absolute;
+        top: 16px;
+        right: 0;
+        font-size: 32px;
+    }
+</style>
+
+@if (ViewBag.Status != 0)
+{
+    <div class="row crudContainer">
+        <h1>Books</h1>
+
+        @using (Html.BeginForm("Search", "Home", FormMethod.Get))
+        {
+
+            @Html.TextBox("search") <input type="submit" name="submit" value="Search" class="btn btn-success" />
+
+
+        }
+
+        <label for="types">Select a Type</label>
+
+
+        <select name="types" id="types">
+            @foreach (BookViewModel book in Model)
+            {
+                <option value="type">@book.type.Name</option>
+
+            }
+        </select>
+
+        <label for="author">Select a Author</label>
+        <select name="author" id="author">
+            @foreach (BookViewModel book in Model)
+            {
+                <option value="author">@book.author.Surname</option>
+
+            }
+        </select>
+        <button type="button" class="btn btn-success">Search</button>
+        <button type="button" class="btn btn-danger">Clear</button>
+
+
+
+
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Type</th>
+                <th>Page Count</th>
+                <th>Points</th>
+                <th>Action</th>
+            </tr>
+            @foreach (BookViewModel book in Model)
+            {
+                <tr>
+                    <td>@book.Name</td>
+                    <td>@book.author.Surname</td>
+                    <td>@book.type.Name</td>
+                    <td>@book.PageCount</td>
+                    <td>@book.Points</td>
+
+                    <td>
+                        <a href="@Url.Action("Update", "Home" , new { id =  @book.ID })" class="btn btn-primary" title="Add Person">View<span class="btn btn-primary" aria-hidden="true"></span></a>
+
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+}

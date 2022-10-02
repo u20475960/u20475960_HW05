@@ -1,0 +1,16 @@
+﻿@model List<u20475960_HW05.ViewModels.TitleViewModel>
+<h2>Insert</h2>
+@using (Html.BeginForm("DoInsert", "Home", FormMethod.Post))
+{
+    <label>Name</label>
+    <br />
+    @Html.TextBox("name", null, new { @class = "form-control", required = "required" });
+    <label>Surname</label>
+    <br />
+    @Html.TextBox("surname", null, new { @class = "form-control", @type = "text", required = "required" });
+    <label>Title</label>
+    <br />
+    @Html.DropDownList("titleID", new SelectList(Model, "ID", "Description"), "Select title", new { @class = "form-control", required = "required" });
+    <button type="submit">Save</button>
+}
+

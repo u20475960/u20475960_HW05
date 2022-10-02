@@ -1,0 +1,85 @@
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\ApplicationInsights.config
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Tutorial15.dll.config
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Tutorial15.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Tutorial15.pdb
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Antlr3.Runtime.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.AI.Web.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.ApplicationInsights.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Newtonsoft.Json.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.Helpers.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.Mvc.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.Optimization.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.Razor.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.WebPages.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\WebGrease.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.Helpers.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.Mvc.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.Optimization.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.Razor.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.WebPages.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Antlr3.Runtime.pdb
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Newtonsoft.Json.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.ApplicationInsights.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\bin\Microsoft.AI.Web.xml
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\obj\Debug\Tutorial15.csprojResolveAssemblyReference.cache
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\obj\Debug\Tutorial15.csproj.CoreCompileInputs.cache
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\obj\Debug\Tutorial15.dll
+C:\Users\user\TuksDrive\INF 272 - Internal\Lectures\W15 - DB programming 2\Tutorial15\Tutorial15\obj\Debug\Tutorial15.pdb
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\ApplicationInsights.config
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Tutorial15.dll.config
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Tutorial15.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Tutorial15.pdb
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Antlr3.Runtime.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.AI.Web.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.ApplicationInsights.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Newtonsoft.Json.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.Helpers.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.Mvc.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.Optimization.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.Razor.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.WebPages.Deployment.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.WebPages.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.WebPages.Razor.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\WebGrease.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.Helpers.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.Mvc.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.Optimization.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.Razor.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.WebPages.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.WebPages.Deployment.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\System.Web.WebPages.Razor.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Antlr3.Runtime.pdb
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Newtonsoft.Json.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.ApplicationInsights.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\bin\Microsoft.AI.Web.xml
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\obj\Debug\Tutorial15.csproj.AssemblyReference.cache
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\obj\Debug\Tutorial15.csproj.CoreCompileInputs.cache
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\obj\Debug\Tutorial15.csproj.CopyComplete
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\obj\Debug\Tutorial15.dll
+C:\Users\thand\OneDrive\Documents\INF 272\Tutorial15\Tutorial15\obj\Debug\Tutorial15.pdb
